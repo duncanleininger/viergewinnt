@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(155, 155, 155);
+    border-style: solid;
+    border-color: rgb(115, 115, 115);
+    border-width: 10px;
+    height: 720px;
+    width: 860px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.hole {
+    border-radius: 100px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(115, 115, 115);
+    border-width: 6px;
+}
+
+.redfill {
+    background-color: red;
+}
+
+.yellowfill {
+    background-color: yellow;
+}
